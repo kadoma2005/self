@@ -1,0 +1,134 @@
+body {
+    background-color: #0a0d14;
+}
+.containr{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 40px;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}/*the start*/
+.self img {
+ border-radius: 20px;   
+ width: 200px;
+ height: 200px;
+ display: flex;
+ margin: 20px auto;
+}
+.self .icon {
+    display: flex;
+    color: aqua;
+    margin: 50px auto;
+    justify-content: center;
+    margin-left: 30px;
+}
+.icon i {
+    margin-right: 60px;
+    font-size: 50px;
+}
+.self .blog {
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    border: solid 1px aqua;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.5s;
+}
+.self .blog:hover {
+    padding: 20px
+}
+.info {
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+}
+.info h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 80px;
+    font-size: 65px;
+}
+.info p {
+    font-size: 65px;
+}
+.info a input[type="button"]{
+    padding: 5px 10px ;
+    font-weight: 600;
+    cursor: pointer;
+}
+/*end the start*/
+/*start pro*/
+.project {
+ position: relative;
+}
+.project .containr {
+ display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(310px,1fr));
+ gap: 60px;
+}
+@media (max-width:767px) {
+    .project .containr {
+        align-items: center;
+        text-align: center;
+    }
+    .project .box i {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.project  h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    color: #777;
+    font-size: 40px;
+}
+.project .box span {
+    color: white;
+    font-size: 28px;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: bold;
+} 
+.project .box i {
+    background-color: bisque;
+    padding: 10px;
+    font-size: 100px;
+    padding-top: 19px;
+    margin: 20px 83px 71px 4px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.project .box .op {
+  font-size: 20px;
+  color: #494949;
+}
+.project .box p {
+    font-size: 20px;
+    color: #777;
+    line-height: 2;
+}
+.project .box .op2 {
+    font-size: 20px;
+    color: #494949;
+    padding-top: 10px;
+}
+.project .box img {
+    max-width: 80%;
+    
+}  
+.pad {
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+/*end pro*/
